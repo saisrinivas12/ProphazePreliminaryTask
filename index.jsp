@@ -8,23 +8,11 @@
 <title>Insert title here</title>
 </head>
 
-<script>
 
-function decode(){
-	var encodevalue = document.getElementById("encodedvalue");
-	
-	$.post("http://localhost:7878/JSP/Servlet",encodevalue,function(data,err){
-		if(err!=null){
-		$("p").append("<span>"+data+"</span")
-		}
-	});
-}
-
-</script>
 <body>
 
 <h1> Form for registration</h1>
-<form  action="Servlet" method="post" onsubmit="return hello();">
+<form  action="Servlet" method="post" >
 User:<input type="text" name="encodedvalue" id="encodedvalue" >
 
 <input type ="submit" value="click me"  >
