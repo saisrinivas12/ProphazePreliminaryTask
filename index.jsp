@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Decode</title>
 </head>
 
 
@@ -13,7 +13,7 @@
 
 <h1>Encoded Value ::</h1>
 <form  action="Servlet" method="post" >
-User:<input type="text" name="encodedvalue" id="encodedvalue" >
+give your encoded value <input type="text" name="encodedvalue" id="encodedvalue" >
 
 <input type ="submit" value="Decode"  >
 
