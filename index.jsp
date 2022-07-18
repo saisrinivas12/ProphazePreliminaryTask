@@ -11,11 +11,11 @@
 
 <body>
 
-<h1> Form for registration</h1>
+<h1>Encoded Value ::</h1>
 <form  action="Servlet" method="post" >
 User:<input type="text" name="encodedvalue" id="encodedvalue" >
 
-<input type ="submit" value="click me"  >
+<input type ="submit" value="Decode"  >
 
 
 </form>
